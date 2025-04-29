@@ -1,16 +1,16 @@
+// src/components/TestComponent.js
 import React from "react";
 
-// no need to modify anything in here. The final test is looking for the returned JSX from this component
 function TestComponent() {
   return (
-    <div className="video">
+    <div>
+      <p>Here is the Test Component!</p>
       <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/5TbUxGZtwGI"
-        frameBorder="0"
-        allow="autoplay; encrypted-media"
         title="time video"
+        width="300"
+        height="200"
+        src="https://giphy.com/embed/l0HlSNOxJB956qwfK"
+        frameBorder="0"
         allowFullScreen
       ></iframe>
     </div>
